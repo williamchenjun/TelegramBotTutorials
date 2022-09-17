@@ -468,6 +468,7 @@ async def makeAdmin(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 text = f"An error occured!",
                 parse_mode = ParseMode.HTML
             )
+    json.dump(adminList, open("adminList.json","w"))
 ```
 
 > **Note**: Whenever you encounter the three dots "`...`" in the code, it means that I've omitted something to keep it short.
@@ -564,6 +565,8 @@ adminList = reorder(adminList)
 adminUserIds.remove(int(user_id))
 ```
 on the first line we are replacing the key names, as shown above, and the second line removes the user ID from the `adminUserIds` list.
+
+At the very end of both `makeAdmin` and `removeAdmin` you may have noticed that we have `json.dump(adminList, open('adminList.json', 'w'))`. That basically instructs the machine to write the updated JavaScript object in the JSON file.
 
 Now that these two functions have been defined, we can attach them to a specific command by using the `CommandHandler`:
 
