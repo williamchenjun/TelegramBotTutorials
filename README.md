@@ -27,15 +27,19 @@ If you know some Python, and have thought about creating a Telegram bot, you're 
 
 ## **Getting started**
 
+> **Note**: Everything that is written between angle brackets "<" and ">" should be substituted with something that you named or only you know. 
+>
+> **For example**: when I mention `<Heroku App Name>`, you should substitute it with your Heroku app name instead, like "test_app" or whatever you named your app.
+
 First of all, we need to know what a "bot" is and how it works.
 
-> A bot is an **automated system** that one can create and manipulate as they like. This can go from very simple tasks, such as repeating words, solving equations or drawing graphs, to group and database management, managing businesses and selling products.
+> A bot is an **automated account** that is controlled by software and not by a person. One can create a bot and manipulate it as they like. Its capabilities can go from very simple tasks, such as repeating words, solving equations or drawing graphs, to group and database management, managing small businesses or selling products.
 
-The way Telegram bots work is through an API. The term "API" stands for "Application Programming Interface". If the acronym is not explicit enough for you, it basically means that we are given an programmable interface to manipulate whatever the application is about. In our case, it gives you the necessary "tools" to manipulate a Telegram bot however you want (with some limitations).
+The way Telegram bots work is through an API. The term "API" stands for "Application Programming Interface". If the acronym is not explicit enough for you, it basically means that we are given a programmable interface to manipulate whatever the application is. In our case, it gives you the necessary "tools" to manipulate a Telegram bot however you want (with some limitations).
 
 ### **Creating a bot**
 
-Now for the part that you've been waiting for... How can we create a bot?
+Now for the part that you've been waiting for... How do we create a bot?
 
 Let's start with the basics. First of all, go on Telegram and search for [@BotFather](https://t.me/BotFather).
 
