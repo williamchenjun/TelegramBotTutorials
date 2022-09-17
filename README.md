@@ -252,11 +252,15 @@ python-telegram-bot==20.0a1
 
 ### **Deploy your bot on Heroku**
 
-As I [mentioned earlier](#setting-up-heroku), it is very easy to deploy your bot. Just open the terminal/command prompt and run one by one:
+As I [mentioned earlier](#setting-up-heroku), it is very easy to deploy your bot. Just open the terminal/command prompt and run the following one by one:
 1. `cd <Heroku App Name>`
 2. `git add .`
 3. `git commit -am "Whatever you want..."`
 4. `git push heroku main` &nbsp;or&nbsp; `git push heroku master`
+
+> **Note**: Make sure that your Heroku app is properly activated! Go on [Heroku](https://www.heroku.com). From your dashboard, select your app, go to the "Resources" tab and make sure the switch is in the on position:<br><br>
+> <img src="https://user-images.githubusercontent.com/79821802/190834452-3f8aedc1-b99b-4e0e-a55d-dc801b04f4de.png" width="200"/><br><br>
+> If it's not on, click on the pencil icon, switch it on, and click "Confirm".
 
 Now you can mess around with the echo bot!
 
