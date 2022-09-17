@@ -41,11 +41,13 @@ Let's start with the basics. First of all, go on Telegram and search for [@BotFa
 
 <img src="https://user-images.githubusercontent.com/79821802/190801198-3ad08283-8ac2-4cdb-8402-d0c8b1a69b0d.gif" width="300"/>
 
-Now, type in the text box "**/newbot**". This will prompt BotFather to ask you to name your bot. You can pick any name you desire. Afterwards, it will ask you to pick a username for your bot, which **must** end with the word "bot". (For example: *ThisIsARandomBot, myOwnBot, BananaBot, helpbot, etc*.) Don't worry, you will be able to edit your bot's information later through BotFather (except for the username).
+Now, type in the text box **/newbot**. This will prompt BotFather to ask you to name your bot. You can pick any name you desire. Afterwards, it will ask you to pick a username for your bot, which **must** end with the word "bot". (For example: *ThisIsARandomBot, myOwnBot, BananaBot, helpbot, etc*.) Don't worry, you will be able to edit your bot's information later through BotFather (except for the username).
 
 <img src="https://user-images.githubusercontent.com/79821802/190808308-fd20cd1c-517d-4b10-949f-3452a525aa7a.gif" width="500"/>
 
 We have finished setting up your bot! Your bot is now officially part of Telegram. You will need to keep the long string that BotFather gives you. It's called a "token" or "API key". It's a unique string that enables you, and only you, to have access to your bot. Make sure to **keep it safe** and hidden.
+
+If you think someone has your API key, or you have accidentally leaked it, don't panic! Go to BotFather and type **/mybots**. BotFather will reply to you with a list of all your bots. If this is your first one, you'll only have one. Click on your bot's username and then click on "API Token". Finally, click on "Revoke current token". Once you've done this, BotFather will generate a new API key for you and the old key will not be functional any longer.
 
 ### **(Optional) Testing environment**
 
