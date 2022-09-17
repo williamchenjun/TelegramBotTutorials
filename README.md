@@ -53,11 +53,11 @@ If you think someone has your API key, or you have accidentally leaked it, don't
 
 Depending on your needs, you might find it useful to set up a testing environment to test out your bot. Go ahead and create a new group with you and your bot in it. If you want to log your bot's actions, you can also create a channel.
 
+### **Setting up Heroku**
+
 Ok, now that you have your bot and a "test group", we can talk about deploying your bot. Something that you might have been wondering is "*How can a bot stay online on its own?*" or "*Will I have to keep my computer on forever?*". So, the simplest way that I can explain it to you is that there are some websites that will let you host your bot on their servers for free or for a monthly subscription. It's actually hard to find free services nowadays. As of right now, I'm only aware of [Heroku](https://www.heroku.com). But sadly they're removing their free plan on the 28th November, 2022.
 
 I might update this section with any free hosting websites, if I find any, after I publish this tutorial. For now, if you can afford it, Heroku is a good option. The "Free and Hobby" [plan](https://www.heroku.com/pricing) is about $7/month.
-
-### **Setting up Heroku**
 
 There is a comprehensive tutorial on how to set up an app and deploy it with git on Heroku, which you can find [here](https://devcenter.heroku.com/articles/git).
 
