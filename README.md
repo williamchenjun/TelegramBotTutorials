@@ -89,7 +89,7 @@ williamchen@Williams-MacBook-Pro <Heroku App Name> ~ % touch <Heroku App Name>.p
 
 This will create `<Heroku App Name>.py`, `requirements.txt` &nbsp;and&nbsp; `Procfile` in your folder. The first file is where the main code will go. The second one will contain all the Python dependencies (modules) that you use in your main code. Procfile is a file that will be read by Heroku and will start your code.
 
-**Optional**: You can also create a fourth file by running `git touch runtime.txt` to specify what version of Python you want to use.
+**Optional**: You can also create a fourth file by running `touch runtime.txt` to specify what version of Python you want to use.
 
 Start by editing `Procfile` and writing:
 
