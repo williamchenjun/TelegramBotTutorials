@@ -411,7 +411,7 @@ The `"r"` stands for "read" and it basically instructs your machine to open your
 
 In `adminList.json` you should add all of your admins in the following manner:
 
-```json
+```
 {
     "1": <userid>,
     "2": <userid>,
@@ -489,12 +489,12 @@ adminUserIds.append(int(userId))
 As you may have noticed, the dictionary keys are ordered numbers (i.e. 1,2,3,4,...). I used that so that it's easy to organise. The issue with using something more complicated than that is conflicts.
 
 For example: Assume we have an object of 3 items
-```JSON
+```
 {"item1": <value1>, "item2": <value2>, "item3": <value3>}
 ```
 If I added a new item, I would want the key to be named `item4` with value `<value4>`. So now the list would be:
 
-```JSON
+```
 {"item1": <value1>, "item2": <value2>, "item3": <value3>, "item4": <value4>}
 ```
 So the easiest way to generalise the key name is `"item" + str(len(adminUserIds))`. But what happens when you remove an item in position 0, 1 or 3, and add a new one is that it replaces `item3`. We obviously don't want this to happen. I will explain later what we can do to prevent this. We first start by analysing the rest of the code.
@@ -550,11 +550,11 @@ def reorder(_dict: dict) -> dict:
 
 We are basically substituting every key with an ordered sequence of number. That is, something like this:
 
-```JSON
+```
 {"1": <userid>, "2": <userid>, "4": <userid>}
 ```
 becomes this:
-```JSON
+```
 {"1": <userid>, "2": <userid>, "3": <userid>}
 ```
 Et voilá! No more overlapping issues. Thus, 
