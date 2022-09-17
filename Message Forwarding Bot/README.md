@@ -182,7 +182,7 @@ If you're too impatient to go through the full tutorial and want the entire func
 
 Just like in our introduction, we want to be able to echo the message that a user sends. This time, however, it will be sent to us (admins) and not themselves. 
 
-We start by copying the echo function from the [introduction](../):
+We start by copying the echo function from the [introduction](https://github.com/williamchenjun/TelegramBotTutorials):
 
 ```python
 async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE):
