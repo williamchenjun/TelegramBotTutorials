@@ -1,3 +1,7 @@
+# Title: Telegram Echo Bot Implementation.
+# Author: William Chen.
+# Date of Creation: 17th September, 2022.
+
 #MODULES
 from telegram.constants import ParseMode
 from telegram.ext import ApplicationBuilder, ContextTypes, MessageHandler, filters, CommandHandler
